@@ -1,0 +1,162 @@
+table {
+    border-collapse: collapse;
+    align-content: center;
+    width: 1500px;
+    margin-left: 19rem;
+    justify-content: center;
+
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+td{
+    background-color: #ddd;
+    
+
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+} */
+
+.preview-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+/* Preview modal styles */
+.preview-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.preview-content {
+    background: rgb(170, 167, 167);
+    padding: 16px;
+    border-radius: 25px;
+    display: flex;
+    padding: 40px 30px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preview-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 16px;
+}
+
+.preview-description {
+    margin: 0 0 16px 0;
+}
+
+.close-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.update-button{
+    background-color: #2fb8c7;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-button{
+    background-color: #ff0000;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.search-box {
+    position: relative;
+    width: 200px;
+}
+
+.search-box input[type="text"] {
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #f2f2f2;
+    font-size: 16px;
+}
+
+.search-box input[type="text"]:focus {
+    outline: none;
+}
+
+.search-box button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    padding: 0 16px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}

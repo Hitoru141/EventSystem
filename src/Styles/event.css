@@ -1,0 +1,179 @@
+.first-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-size: cover;
+    /* background-color: #040434e6;    */
+    width: 100%;
+    color: #ffff;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ /* Event Cards CSS */
+.p-event-desc{
+    text-align: justify;
+    font-size: 0.9em;
+}
+.esports-h1{
+    font-size: 5em;
+    margin: 2rem;
+}
+.header-container{
+	text-align: center;
+	display: flex;
+    background: linear-gradient(rgba(0, 0, 0, 0.415), rgba(0, 0, 0, 0.421)), url("../assets/esports.jpeg") no-repeat center;
+    background-size: cover;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	letter-spacing: 1px;
+    width: 100vw;
+    height: 40vh;
+    clip-path:polygon(50% 0%,100% 0,100% 60%,100% 100%,8% 100%,0% 89%,0 0);
+}
+.eventwrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 3em;
+    border-radius: 20px;
+    margin: 2rem;
+}
+.maincard-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    color: #ffff;
+}
+.maincard-wrapper:hover {
+    transform: translateY(-10px);  
+}
+.sample-cards{
+    width:450px;
+    height: 250px;
+    background: rgba(81, 16, 221, 0.797);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.card-lower{
+    margin-top: -5rem;
+    width: 450px;
+    height: 250px;
+    background: rgba(0, 0, 0, 0.516);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 1rem;
+}
+.sub-card-content{
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    padding: 1em 1em;
+    /* background: rgba(220, 5, 5, 0.748); */
+}
+
+/* EventsPage */
+.event-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-size: cover;
+    flex-direction: column;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    min-height: 100vh;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner {
+    background: linear-gradient(rgba(0, 0, 0, 0.71), rgba(0, 0, 0, 0.487)), url("../assets/esports.jpeg") no-repeat center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    padding: 2rem 15rem;
+    height: 30vh;
+    width: 100%;
+}
+.h3-event-details{
+    padding: 2rem;
+    color: #000000;
+}
+.h2-event-head{
+    color: #000000;
+}
+.event-title-h1 {
+    font-size: 4rem;
+    margin: 2rem;
+}
+.hr-event{
+    width: 100%;
+    margin-top: 2rem;
+}
+.parent-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem 2rem;
+    gap: 2rem;
+    width: 100%;
+}
+.event-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ECE8E1;
+    color: hsl(0, 0%, 0%);
+    border-radius: 10px;
+    width: 50%;
+    height: auto;
+    min-height: 50vh;
+}
+.event-details{
+    text-align: justify;
+    padding: 2rem;
+}
+.event-img-cont{
+    /* width: 100%;
+    height: 250px; */
+    background: rgba(81, 16, 221, 0.797);
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.sub-content{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: hsl(0, 100%, 99%);
+    color: hsl(280, 83%, 39%);
+    border-radius: 6px;
+    width: 25%;
+    height: auto;
+    min-height: 50vh;
+}
+.event-deets{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem 2rem; 
+    width: 100%;
+}
